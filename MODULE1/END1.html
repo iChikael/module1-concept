@@ -1,0 +1,310 @@
+<html>
+
+<head>
+    <title>MODULE1</title>
+
+
+    <script src="mm.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="Style.css" type="text/css" media="screen" />
+    <script type="text/javascript" charset="utf-8" src="Config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Scripts/main.js"></script>
+    <script type="text/javascript" charset="utf-8" src="Scripts/lang.js"></script>
+</head>
+
+<body onload="init()">
+
+    <h1>Bài tổng kết module</h1>
+
+
+
+    <div class="box">
+        <div id="Cal">
+            <span id="date"></span>.<span id="month"></span> <span id="year"></span><span id="weekday"></span>
+        </div>
+
+        <div id="StandWithHKWrap">
+            <div id="StandWithHK">
+                <span id="hashtag">#</span><span id="yourText">sinh nhật</span><span id="period">.</span>
+            </div>
+        </div>
+
+        <div id="Para">
+            ..........................................................
+        </div>
+
+        <div id="Clock">
+            <span id="hour"></span><span id="minute"></span><span id="ampm" style="display:none;"></span>
+        </div>
+        <div id="L"></div>
+        <div id="R"></div>
+
+    </div>
+    </div>
+    <div class="box2">
+        <div id="text">
+            <ol type="1">
+                <li>Các bài học và chứng chỉ đã hoàn thành</li>
+                <ul style="list-style-type:disc">
+                    <li>Hoàn thành khoá học "Học cách học".</li>
+                    <li>Hoàn thành khoá học "Hoàn thành mọi việc với Kanban 2.0".</li>
+                    <li>Hoàn thành khoá học "Kỹ năng làm việc tại doanh nghiệp".</li>
+                    <li>Nhập môn tư duy lập trình.</li>
+                </ul>
+                <li>Các bài đã được học:</li>
+                <ul style="list-style-type:disc">
+                    <li><a href="#C2.1">Mô tả thuật toán bằng Pseudo cosde & flowchart.</a> </li>
+                    <li><a href="#C2.2"> Git & HTML.</a></li>
+                    <li><a href="#C2.3">HTML Form & Table.</a> </li>
+                    <li><a href="#C2.4"> Javascript.</a></li>
+                    <li><a href="#C2.5">Biến, kiểu dữ liệu và toán tử.</a></li>
+                    <li><a href="#C2.6">Cấu trúc điều kiện.</a> </li>
+                    <li><a href="#C2.7">Cấu trúc lặp.</a> </li>
+                    <li><a href="#C2.8">Mảng.</a> </li>
+                    <li><a href="#C2.9">Hàm.</a> </li>
+                    <li><a href="#C3">Lập trình hướng đối tượng.</a> </li>
+                </ul>
+            </ol>
+        </div>
+    </div>
+    <div class="box3">
+        <p id="text">
+        <ol type="1">
+            <li>Các bài học và chứng chỉ hoàn thành:</li>
+            <ul style="list-style-type:disc">
+                <li>Các chứng chỉ trên code.org.</li>
+                <li>Các khóa học "Học cách học", "Hoàn thành mọi việc với Kanban 2.0", "Kỹ năng làm việc tại doanh
+                    nghiệp".</li>
+            </ul>
+            <li>Các bài đã được học và đã được áp dụng:</li>
+            <ul style="list-style-type:disc">
+                <li id="C2.1">Mô tả thuật toán bằng Pseudo cosde & flowchart.</li>
+                <ul style="list-style-type:circle">
+                    <li>Định nghĩa mã giả và ví dụ</li>
+                    <li>Định nghĩa lưu đồ và ví dụ</li>
+                    <li>Ý nghĩa của những biểu tượng trong lưu đồ</li>
+                    <li>Trình bày cấu trúc IF bằng mã giả và lưu đồ</li>
+                    <li>Trình bày cấu trúc IF-ELSE bằng mã giả và lưu đồ</li>
+                    <li>Trình bày cấu trúc IF lồng nhau bằng mã giả và lưu đồ</li>
+                    <li>Trình bày cấu trúc Vòng lặp bằng mã giả và lưu đồ</li>
+                    <li>Ví dụ pseudo: <img src="Stuff/peu.jpg" alt="" width="40"></li>
+                </ul>
+                <li id="C2.2">Git & HTML.</li>
+                <ol type="1">
+                    <li>GIT</li>
+                    <ul style="list-style-type:circle">
+                        <li>Khái niệm về Git<br><br> Git là một cách thức (mô hình, giao thức, công cụ, qui tắc) để lưu
+                            trữ mã nguồn và hỗ trợ cộng tác trong quá trình phát triển ứng dụng.
+
+                            Hãy tưởng tượng, Bob và James cùng tham gia phát triển một dự án. Họ lưu trữ mã nguồn của dự
+                            án ở đâu? Làm thế nào để họ cộng tác với nhau? Làm thế nào để họ chia sẻ chung một bộ mã
+                            nguồn? Git có thể giúp Bob và James trong trường hợp này <br><br></li>
+                        <li>Repository <br><br>Là nơi chứa mã nguồn (repository có nghĩa là "kho chứa"), tức là nơi mà
+                            chúng ta lưu trữ các file, các đoạn mã được viết ra trong suốt quá trình phát triển dự án.
+                            Có 2 loại Repository là Local Repository và Remote Repository. <br><br></li>
+                        <li>Local Repository <br><br> Là nơi lưu trữ mã nguồn trên máy tính của lập trình viên. Chẳng
+                            hạn Bob và James mỗi người đều có các Local Repository trên máy của riêng mình. Các đoạn mã
+                            do Bob hoặc James viết ra đều được lưu trữ trên các Local Repository đó. <br><br></li>
+                        <li> Remote Repository <br><br>Là nơi lưu trữ mã nguồn ở trên mạng (chẳng hạn là mạng Internet
+                            hay là mạng nội bộ của một công ty). Để có Remote Repository thì chúng ta cần có một máy chủ
+                            và cài Git Server lên đó. Hoặc chúng ta có thể sử dụng các dịch vụ miễn phí (chẳng hạn như
+                            GitHub.com, GitLab.com...). Remote Repository (có nghĩa là "kho chứa từ xa") là nơi mà cả
+                            Bob và James đều có thể truy cập được để tải mã nguồn về hoặc đưa mã nguồn lên đó<br><br>
+                        </li>
+                        <li>Version <br><br>Là trạng thái mã nguồn ở một thời điểm nhất định nào đó. Chẳng hạn, sáng hôm
+                            nay Bob hoàn thành xong tính năng Đăng nhập của website, Bob quyết định đánh dấu rằng đây là
+                            một phiên bản của mã nguồn. Đến buổi trưa, James hoàn thành tính năng Cài đặt lại mật khẩu,
+                            James lại quyết định đánh dấu rằng đây là một phiên bản nữa của mã nguồn. Như vậy, có thể
+                            thấy rằng trong quá trình phát triển một dự án thì mã nguồn sẽ có rất nhiều phiên bản được
+                            tạo ra liên tiếp nhau. Đến buổi chiều, chẳng may Bob lỡ tay xoá mất mấy đoạn mã quan trọng.
+                            Nhưng Bob không hề lo lắng, bởi vì Bob có thể "quay trở về" phiên bản trước đó của mã nguồn
+                            một cách dễ dàng. Đó là một trong rất nhiều những lợi ích của việc quản lý phiên bản mã
+                            nguồn. <br><br></li>
+                        <li>Quản lý Phiên bản mã nguồn <br><br>Git không chỉ giúp chúng ta quản lý mã nguồn mà còn quản
+                            lý phiên bản mã nguồn. Tức là giúp chúng ta làm chủ được từng thay đổi của mã nguồn theo
+                            thời gian. <br><br></li>
+                        <li>Đồng bộ giữa các Repository <br><br> Ngoài Repository chung (chính là Remote Repository) thì
+                            Bob và James đều có các Repository riêng của mình (chính là Local Repository), do đó phải có
+                            cơ chế để đồng bộ giữa các Repository này với nhau, tức là giữ cho mã nguồn ở các Repository
+                            này giống hệt nhau. Hay nói cách khác, tất cả các Repository này là những bản sao của nhau.
+                            <br><br></li>
+                        <li>Làm việc và thực hành cơ bản với Git
+                            <img src="Stuff/git1.jpg" width="50" height="25">
+                        </li>
+                        <li>Một vài câu lệnh thường sử dụng trong git <img src="Stuff/git2.png" width="50"
+                                height="25"><br><br> </li>
+                    </ul>
+                    <li>HTML</li>
+                    <ul style="list-style-type:circle">
+                        <li>Ý nghĩa của các thẻ HTML cơ bản <img src="Stuff/html1.png" alt="" width="75" height="30">
+                        </li>
+                        <li> Giới thiệu về các trình duyệt: <br><br>
+                            Trình duyệt (chẳng hạn như Chrome, IE, Firefox, Safari...) là những phần mềm được sử dụng để
+                            đọc các tài liệu HTML và hiển thị chúng dưới dạng giao diện người dùng.
+
+                            Trình duyệt không hiển thị các thẻ HTML ra giao diện, thay vào đó chúng dựa vào các thẻ HTML
+                            để biết phải hiển thị những thành phần tương ứng ra giao diện. Chẳng hạn ở ví dụ trên, khi
+                            trình duyệt đọc được một thẻ &lt;h1&gt; thì chúng sẽ hiển thị ra một tiêu đề lớn, còn khi
+                            đọc được một thẻ &lt;p&gt;thì lại hiển thị một đoạn văn bản <br><br></li>
+                        <li>Cấu trúc của một trang HTML <img src="Stuff/html2.png" alt="" width="35" height="45"><br><br><br></li>
+
+                        <li> Một số thuộc tính nổi bật của một vài thẻ HTML cơ bản: <br><br>
+                            Các thẻ HTML có thể khai báo thêm các thuộc tính <br>
+                            Các thuộc tính cung cấp thêm các thông tin cần thiết cho thẻ <br>
+                            Thuộc tính luôn được viết trong thẻ mở <br>
+                            Thuộc tính đi thành cặp thuộc_tính/giá_trị dạng: tên_thuộc_tính="giá_trị" <br><br></li>
+                        <li>Lưu ý khi viết tên các thẻ HTML : Luôn viết thuộc tính bằng chữ in thường, luôn đặt giá trị
+                            trong cặp dấu nháy <br><br></li>
+
+                    </ul>
+                </ol>
+                <li id="C2.3">HTML Form & Table.</li>
+                <ul>
+                    <li>Cú pháp của form <img src="Stuff/form.png" alt="" width="55" height="35"> <br><br></li>
+                    <li>Thuộc tính action của form <br><br>Thuộc tính action quy định nơi dữ liệu được gửi đến. Địa chỉ
+                        này có thể là trên cùng server với trang web hiện tại hoặc trên bất kỳ server nào khác. <br><br>
+                    </li>
+                    <li>Thuộc tính method của form <br><br>Thuộc tính method quy định cách thức dữ liệu được gửi lên
+                        server. Có 2 cách thức thường được sử dụng đó là POST và GET <br><br></li>
+                    <li> Phân biệt POST và GET <br><br><img src="Stuff/form1.png" alt="" width="40" height="40"><br><br><br>
+                    </li>
+                    <li>Cách đặt tên cho các trường trong form : <br><br>Cần phải đặt tên cho các trường của biểu mẫu.
+                        Nếu một trường nào đó không được đặt tên thì dữ liệu của trường đó sẽ bị bỏ qua <br><br></li>
+
+                    <li>Các loại input phổ biến : text, password, checkbox, radio, reset, submit, hidden <br> <br>
+                        <form action="/action_page.php">Text here:<input name="text" type="text" />
+                        </form> <br><br>
+                        <form action="/action_page.php">Password:<input name="password" type="password" />
+                        </form><br><br>
+                        <form action="/action_page.php">Sở thích:<br>
+                            <label><input name="hobby" value="travel" type="checkbox" /> Du lịch</label> <br>
+                            <label><input name="hobby" value="sport" type="checkbox" /> Thể thao</label> <br>
+                            <label><input name="hobby" value="cooking" type="checkbox" /> Nấu ăn</label> <br>
+                        </form><br><br>
+                        <form action="/action_page.php">Sở thích:<br>
+                            <label><input name="hobby" value="travel" type="radio" checked /> Du lịch</label> <br>
+                            <label><input name="hobby" value="sport" type="radio" /> Thể thao</label> <br>
+                            <label><input name="hobby" value="cooking" type="radio" /> Nấu ăn</label> <br>
+                        </form><br><br>
+                        <form action="/action_page.php"><br><br>
+                            <form action="/action_page.php">Account: <input name="account" value="" type="text"><br> 
+                            <input type="reset" value="Reset" />
+                            </form><br><br>
+                            <form method="POST">Account: <input name="account" value="" type="text" /><br><br>
+                            <input type="submit" value="Send data">
+                            </form><br><br>
+                            <form method="POST">
+                                <button type="button" onclick='click_btn()'>Click me</button>
+                            </form><br><br>
+                            <form method="POST">
+                                <textarea cols="50"
+                                    rows="4">This is a very very long text text text text text text text text text text text text </textarea>
+                            </form><br><br>
+                    </li>
+                    <li>Sử dùng cặp&nbsp;thẻ&nbsp;&lt;select&gt;&nbsp;&lt;option&gt;&nbsp; : <br><br>
+                        Thẻ &lt;select&gt; được sử dụng chung với thẻ &lt;option&gt; để tạo một danh sách drop-down hoặc list, cho phép chọn một hoặc nhiều hạng mục từ một danh sách có sẵn. Ví dụ : <br><br>
+                            <select name="city">
+                                <option value="HN">Hà Nội</option>
+                                <option value="HP">Hải Phòng</option>
+                                <option value="HU">Huế</option>
+                                <option value="DN">Đà Nẵng</option>
+                                <option value="SG">Sài Gòn</option>
+                              </select> <br><br>
+                              <select name="city" multiple>
+                                <option value="HN">Hà Nội</option>
+                                <option value="HP">Hải Phòng</option>
+                                <option value="HU">Huế</option>
+                                <option value="DN">Đà Nẵng</option>
+                                <option value="SG">Sài Gòn</option>
+                              </select><br><br>
+                            </li>
+                    <li>Kiến thúc sử dụng các cặp thẻ &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;: <br><br>
+                        &lt;table&gt;: Định nghĩa một bảng <br>
+                            &lt;tr&gt;: Định nghĩa một dòng <br>
+                            &lt;th&gt;: Định nghĩa một ô tiêu đề <br>
+                            &lt;td&gt;: Định nghĩa một ô dữ liệu. <br><br>Ví dụ về bảng : <br><br>
+                            <table border="">
+                                <tr>
+                                  <th>Firstname</th>
+                                  <th>Lastname</th> 
+                                  <th>Age</th>
+                                </tr>
+                                <tr>
+                                  <td>Văn Cường</td>
+                                  <td>Hứa</td> 
+                                  <td>30</td>
+                                </tr>
+                                <tr>
+                                  <td>Lực</td>
+                                  <td>Đinh</td> 
+                                  <td>50</td>
+                                </tr>
+                              </table> <br><br>
+                            </li>
+                </ul>
+                <li id="C2.4">Javascript.</li>
+                <ul>
+                    <li>Định nghĩa Javascript : <br><br>
+                        JavaScript là một ngôn ngữ script được dùng để tạo các script ở máy client và máy server. Các script ở máy client có thể thực thi được trong trình duyệt trong khi các script ở máy server lại thực hiện trên server. <br><br></li>
+                    <li>Ý nghĩa ngôn ngữ Javascript : <br><br>
+                        Javascript là một ngôn ngữ lập trình dùng để xử lý các sự kiện và tác động trên các phần tử trong một trang web. Nó có thể được sử dụng để tạo ra các hiệu ứng trực quan, xử lý dữ liệu và tương tác với máy chủ. <br><br></li>
+                    <Li>Mục tiêu của Javascript : <br><br>
+                        Mục tiêu của Javascript là giúp cho các trang web trở nên đẹp mắt hơn và tương tác đa dạng hơn, giúp người dùng trải nghiệm tốt hơn trên trang web. Nó cũng có thể dùng để xử lý dữ liệu và tương tác với máy chủ, giúp cho các trang web hoạt động mượt mà hơn và có thể cập nhật dữ liệu mà không cần tải lại trang. <br><br></Li>
+
+                </ul>
+                <li id="C2.5">Biến, kiểu dữ liệu và toán tử.</li>
+                <ul>
+                    <li>Kiểu boolean </li>
+                    <li>Kiểu của null</li>
+                    <li>Kiểu của undefined</li>
+                    <li>Kiểu số</li>
+                    <li>Kiểu chuỗi</li>
+                    <li>Kiểu Symbol (mới trong ECMAScript 6)</li>
+                    <li>Kiểu đối tượng</li>
+                </ul>
+                <li id="C2.6">Cấu trúc điều kiện.</li>
+                <ul>
+                    <li>Câu lệnh IF</li>
+                    <li>Câu lệnh IF-ELSE</li>
+                    <li>Câu lệnh SWiTCH-CASE</li>
+                    <li>Các sự kiện trong html</li>
+                </ul>
+                <li id="C2.7">Cấu trúc lặp.</li>
+                <ul>
+                    <li>Vòng lặp for</li>
+                    <li>Vòng lặp for-in, for-of, for-each</li>
+                    <li>VÒng lặp do-while, while</li>
+
+                </ul>
+                <li id="C2.8">Mảng.</li>
+                <ul>
+                    <li>Khái niệm về mảng</li>
+                    <li>Các thành phần của mảng</li>
+                    <li>Cú pháp khai báo mảng</li>
+                    <li>Cách truy xuất phần tử trong mảng</li>
+                    <li>Trả về độ dài trong mảng</li>
+                    <li>Thêm, xoá phần tử trong mảng</li>
+                    <li>Sắp xếp các phần tử trong mảng</li>
+                </ul>
+                <li id="C2.9">Hàm.</li>
+                <ul>
+                    <li>Khái niệm về hàm</li>
+                    <li>Cú pháp khai báo hàm</li>
+                    <li>Cú pháp gọi hàm</li>
+                </ul>
+                <li id="C3">Lập trình hướng đối tượng.</li>
+                <ul>
+                    <li>Khái niệm về đối tượng</li>
+                </ul>
+            </ul>
+
+        </ol>
+        </p>
+    </div>
+
+
+
+</body>
+
+</html>
