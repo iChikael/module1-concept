@@ -250,10 +250,13 @@ a:hover {
 button {
       width: 200px;
       height: 40px;
-      background-color: #06f04484;
+      background-color: #2ff463fd;
       cursor: pointer;
       border: 0px;
       color: #F3F3f3;
+      z-index: 1;
+      margin: 10px;
+      
 }
 
 button:hover {

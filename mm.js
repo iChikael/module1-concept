@@ -129,7 +129,10 @@ function renderBill() {
             <td><button type="button" onclick="delProduct(${i})">Del</button></td>
         </tr>`
     }
+	renderBill();
 }
+
+
 
 function addProduct() {
     let productName = document.getElementById("productNameInput").value;
@@ -153,6 +156,8 @@ function addProduct() {
     document.getElementById("productInv").value ="";
 
 }
+
+
 function delProduct(index) {
     bill.splice(index, 1);
     renderBill();
