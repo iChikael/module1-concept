@@ -5,11 +5,9 @@ body {
       font-family: efbold;
       color: #F3F3f3;
       letter-spacing: 2;
-      background-image: url(https://topshare.vn/wp-content/uploads/2021/01/Hinh-nen-dien-thoai-dep-va-doc-dao-10.jpg);
-
+      background-image: linear-gradient(to bottom, rgba(14, 33, 203, 0.359), rgba(10, 191, 85, 0.556));
       background-size: cover;
-
-
+      background-attachment: fixed;
 }
 
 @font-face {
@@ -170,7 +168,7 @@ body {
       font-family: efbold;
       opacity: 1;
       margin: 5px;
-      margin-left: 5px;
+      margin-left: -10px;
       margin-right: 50px;
       margin-inline-end: 20px;
       overflow: hidden;
