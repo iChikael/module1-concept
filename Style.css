@@ -6,7 +6,7 @@ body {
       color: #F3F3f3;
       letter-spacing: 2;
       background-image: url(https://topshare.vn/wp-content/uploads/2021/01/Hinh-nen-dien-thoai-dep-va-doc-dao-10.jpg);
-      opacity: 1;
+      
       background-size: cover;
 
 
@@ -192,7 +192,6 @@ h1 {
       z-index: 100;
       font-size: 250%;
       color: #FF0000;
-      ;
       font-family: ar;
       text-shadow: none;
       font-family: canaro;
