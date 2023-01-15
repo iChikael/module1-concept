@@ -107,6 +107,7 @@ class Item {
         this.quantity = quantity;
     }
 }
+
 var bill = [
     new Item("Sony Xperia", 5000000, 100),
     new Item("Samsung Galaxy", 7000000, 200),
@@ -132,7 +133,8 @@ function renderBill() {
 }
 
 function addProduct() {
-    var productName = document.getElementById("productNameInput").value;
+    
+	var productName = document.getElementById("productNameInput").value;
     var productPri = document.getElementById("productPri").value;
     var producInv = document.getElementById("productInv").value;
 
@@ -153,12 +155,13 @@ function addProduct() {
     document.getElementById("productInv").value ="";
 
 }
+
 function delProduct(index) {
     bill.splice(index, 1);
     renderBill();
 }
 
-document.body.addEventListener("load", renderBill);
+renderBill();
 
 
 
