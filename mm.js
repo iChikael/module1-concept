@@ -107,7 +107,7 @@ class Item {
         this.quantity = quantity;
     }
 }
-let bill = [
+var bill = [
     new Item("Sony Xperia", 5000000, 100),
     new Item("Samsung Galaxy", 7000000, 200),
     new Item("Nokia 6", 4500000, 50),
@@ -118,9 +118,9 @@ let bill = [
 ]
 
 function renderBill() {
-    let tbBill = document.getElementById("tbBill");
+    var tbBill = document.getElementById("tbBill");
     tbBill.innerHTML = "";
-    for (let i = 0; i < bill.length; i++) {
+    for (var i = 0; i < bill.length; i++) {
         tbBill.innerHTML += `
         <tr>
             <td>${bill[i].name}</td>
@@ -129,20 +129,17 @@ function renderBill() {
             <td><button type="button" onclick="delProduct(${i})">Del</button></td>
         </tr>`
     }
-	renderBill();
 }
 
-
-
 function addProduct() {
-    let productName = document.getElementById("productNameInput").value;
-    let productPri = document.getElementById("productPri").value;
-    let producInv = document.getElementById("productInv").value;
+    var productName = document.getElementById("productNameInput").value;
+    var productPri = document.getElementById("productPri").value;
+    var producInv = document.getElementById("productInv").value;
 
     bill.push(new Item(productName, productPri, producInv));
     tbBill = document.getElementById("tbBill");
     tbBill.innerHTML = ""
-    for (let i = 0; i < bill.length; i++) {
+    for (var i = 0; i < bill.length; i++) {
         tbBill.innerHTML += `
         <tr>
             <td>${bill[i].name}</td>
@@ -156,10 +153,12 @@ function addProduct() {
     document.getElementById("productInv").value ="";
 
 }
-
-
 function delProduct(index) {
     bill.splice(index, 1);
     renderBill();
 }
-renderBill()
+
+document.body.addEventListener("load", renderBill);
+
+
+

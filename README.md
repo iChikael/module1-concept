@@ -6,7 +6,6 @@
 - Loops statements, Condition Statements, Function
 - Array
 - Object
-- Local Storage
 
 
 ## Sản phẩm
