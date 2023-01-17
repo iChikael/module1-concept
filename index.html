@@ -7,6 +7,8 @@
     
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="Style.css" type="text/css" media="screen" />
+    <link rel="icon" href="Stuff/pngwing.com.png">
+    
    
 </head>
 
@@ -19,7 +21,7 @@
 
         <div id="StandWithHKWrap">
             <div id="StandWithHK">
-                # sinh nhật 1222i
+                # sinh nhật .
             </div>
         </div>
 
@@ -44,7 +46,7 @@
                     <li>Hoàn thành khoá học "Kỹ năng làm việc tại doanh nghiệp".</li>
                     <li>Nhập môn tư duy lập trình.</li>
                 </ul>
-                <li>Các bài đã được học: <br< /li>
+                <li>Các bài đã được học: <br</li>
                         <ul style="list-style-type:disc">
                             <li><a href="#C2.1" class="aa">Mô tả thuật toán bằng Pseudo cosde & flowchart.</a> </li>
                             <li><a href="#C2.2" class="aa"> Git & HTML.</a></li>
@@ -67,7 +69,8 @@
             <ul style="list-style-type:disc">
                 <li>Các chứng chỉ trên code.org.</li>
                 <li>Các khóa học "Học cách học", "Hoàn thành mọi việc với Kanban 2.0", "Kỹ năng làm việc tại doanh
-                    nghiệp". <br><br></li>
+                    nghiệp". <br><br>
+                    
             </ul>
             <li>Các bài đã được học và đã được áp dụng:</li>
             <ul style="list-style-type:disc">
@@ -435,6 +438,27 @@ let countOfCars = cars.length // count trả về là 3
                         Để gọi hàm, chúng ta sử dụng tên của hàm và truyền vào các tham số theo yêu cầu của hàm đó.
                         <br><br>
                         Các ví dụ sử dụng hàm : <br><br>
+                        <textarea name="" id="" cols="30" rows="15" readonly>function example9() {
+                            let A = +prompt('Nhập diểm Hóa');
+                            let B = +prompt('Nhập điểm Lý');
+                            let C = +prompt('Nhập điểm Sinh');
+                            let R = (A + B + C) / 3;
+                            alert("Điểm trung bình là: " + R);
+                        }</textarea>
+                        <textarea name="" id="" cols="40" rows="20" readonly>function example10() {
+                            let number = +prompt('Nhập số cần kiểm tra');
+                            {
+                                if (number < 2) {
+                                    return alert("Số nhập vào không phải số nguyên tố");
+                                }
+                                for (let i = 2; i < number; i++) {
+                                    if (number % i === 0) {
+                                        return alert("Số nhập vào không phải số nguyên tố");
+                                    }
+                                }
+                                return alert("Số nhập vào là số nguyên tố");
+                            }
+                        }</textarea><br>
                         <button onclick="example9()">Tính điểm trung bình</button>
                         <button onclick="example10()">Kiểm tra số nguyên tố</button>
                     </li>

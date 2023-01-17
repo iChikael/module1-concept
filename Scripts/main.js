@@ -1,7 +1,7 @@
-window.addEventListener("load", function() { 
-   document.body.style.width='100%';
-   document.body.style.height='100%';
-}, false);
+// window.addEventListener("load", function() { 
+//    document.body.style.width='100%';
+//    document.body.style.height='100%';
+// }, false);
 
 function updateClock() { 
 var currentTime = new Date();
@@ -46,26 +46,26 @@ var sheet = document.createElement('style')
         document.body.appendChild(sheet);
 
 	
-document.getElementById('yourText').innerHTML = Motto;		
+// document.getElementById('yourText').innerHTML = Motto;		
 
 
- (function () {
-            'use strict';
-            if (window.innerWidth === 320) {
-                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85, maximum-scale=0.85, user-scalable=0');
-            } else if (window.innerWidth === 414) {
-                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.104, maximum-scale=1.104, user-scalable=0');
-            } else if (window.innerWidth === 425) {
-                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.133, maximum-scale=1.133, user-scalable=0');
-            } else if (window.innerWidth === 432) {
-                document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.152, maximum-scale=1.152, user-scalable=0');
-            }
-        }());
-        (function () {
-            'use strict';
-            if ((window.innerHeight / window.innerWidth) > 2) {
-                document.getElementById("Widget").style.top = "50px";
-            } else {
-                document.getElementById("Widget").style.top = "0px";
-            }
-        }());
+//  (function () {
+//             'use strict';
+//             if (window.innerWidth === 320) {
+//                 document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=0.85, maximum-scale=0.85, user-scalable=0');
+//             } else if (window.innerWidth === 414) {
+//                 document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.104, maximum-scale=1.104, user-scalable=0');
+//             } else if (window.innerWidth === 425) {
+//                 document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.133, maximum-scale=1.133, user-scalable=0');
+//             } else if (window.innerWidth === 432) {
+//                 document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale=1.152, maximum-scale=1.152, user-scalable=0');
+//             }
+//         }());
+//         (function () {
+//             'use strict';
+//             if ((window.innerHeight / window.innerWidth) > 2) {
+//                 document.getElementById("Widget").style.top = "50px";
+//             } else {
+//                 document.getElementById("Widget").style.top = "0px";
+//             }
+//         }());
